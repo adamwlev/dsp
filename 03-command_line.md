@@ -52,13 +52,20 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-`ls` lists all files and directories in a location (working directory if no other directory is specified) excluded normally hidden files and directories 
-`ls -a` does the same except it includes files and directories that start with a period which would normall be hidden 
-`ls -l` the l for long flag does the same except it will give you more info. it will give you such things as the date and time of last modification, ownership info, and file size. 
-`ls -lh` does the same as `-l` except it converts the file size to a reasonable choice for units. The smallest of the following options that allows for output of three digits or less - Byte, Kilobyte, Megabyte, Gigabyte, Terabyte, Petabyte. 
-`ls -lah` is a combination of the `-l`, `-a`, and `-h` flags. 
-`ls -t` the `-t` flag sorts the resulting output based on time last modified, with the most recent first 
+`ls` lists all files and directories in a location (working directory if no other directory is specified) excluded normally hidden files and directories
+
+`ls -a` does the same except it includes files and directories that start with a period which would normall be hidden
+
+`ls -l` the l for long flag does the same except it will give you more info. it will give you such things as the date and time of last modification, ownership info, and file size.
+
+`ls -lh` does the same as `-l` except it converts the file size to a reasonable choice for units. The smallest of the following options that allows for output of three digits or less - Byte, Kilobyte, Megabyte, Gigabyte, Terabyte, Petabyte.
+
+`ls -lah` is a combination of the `-l`, `-a`, and `-h` flags.
+
+`ls -t` the `-t` flag sorts the resulting output based on time last modified, with the most recent first
+
 `ls -Glp` this is a combination of the `-G` flag which enables colorized output (I think this mostly colors directories according to what kind of directory they are) and the `-l` flag from earlier and the `-p` flag which with put a slash after all directories to communicate that they're directories.
+
 ---
 
 ###Q3.  More List Files in Unix  
