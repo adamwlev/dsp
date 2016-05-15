@@ -13,7 +13,31 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+*rm -rf ____* is remove for a directory that is not empty
+
+*env* lets you take a look at your environment and *env $PATH* lets you take a look at the your PATH (helpful for looking at which python install you will default to)
+
+*_____ | ______* lets you pipe the results of an operation on the left into a subsequent operation on the right.
+
+*_____ > ______* lets you save the results of an operation on the left to a file on the right and *>>* means appending the results to the (already existant) file on the right.
+
+*_____ < ______* lets you take the contents of the file on the right and feed it to a program on the left
+
+*find -name (directory) (pattern) -print* lets you search through the names of the files on your computer and prints the results to the terminal
+
+*cat* prints a whole file to the terminal window
+
+*less* lets you page through the contents of a file with less
+
+*<CTRL> A* moves your cursor to start of the line. *<CTRL> E* moves your cursor to end of the line
+
+*<CTRL> L* clear the terminal
+
+
+
+
+
+
 
 ---
 
