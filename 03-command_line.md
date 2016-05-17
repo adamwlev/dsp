@@ -64,7 +64,7 @@ What do the following commands do:
 
 `ls -t` the `-t` flag sorts the resulting output based on time last modified, with the most recent first
 
-`ls -Glp` this is a combination of the `-G` flag which enables colorized output (I think this mostly colors directories according to what kind of directory they are) and the `-l` flag from earlier and the `-p` flag which with put a slash after all directories to communicate that they're directories.
+`ls -Glp` this is a combination of the `-G` flag which enables colorized output (I think this mostly colors directories according to what kind of directory they are) and the `-l` flag from earlier and the `-p` flag which will put a slash after all directories to communicate that they're directories.
 
 ---
 
@@ -72,7 +72,17 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+I like `la -A` which shows you all files dircetories except `.` and `..`.
+
+`ls -o` is like `ls -l` except it does not print the group id, which I do not understand the use for at this moment.
+
+`ls -S` will order the files/directories by size.
+
+`ls -AlgoS` will print the long output for everything in the wd except `.` and `..`, except it will omit the group id and owner, and it will order the output by size.
+
+`ls -GAlApAgos` is fun. (Repeating tags doesn't do anything *smile*
+
+
 
 ---
 
