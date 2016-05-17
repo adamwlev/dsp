@@ -80,7 +80,7 @@ I like `la -A` which shows you all files dircetories except `.` and `..`.
 
 `ls -AlgoS` will print the long output for everything in the wd except `.` and `..`, except it will omit the group id and owner, and it will order the output by size.
 
-`ls -GAlApAgos` is fun. (Repeating tags doesn't do anything *smile*
+`ls -GAlApAgos` is fun. (Repeating tags doesn't do anything :smile:)
 
 
 
