@@ -2,6 +2,7 @@
 
  ``` python
  import nsfg
+ import thinkstats2
  preg = nsfg.ReadFemPreg()
  firsts = preg[preg.birthord==1]
  others = preg[preg.birthord!=0]
