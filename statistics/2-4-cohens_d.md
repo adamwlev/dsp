@@ -10,3 +10,5 @@
  ```
 
 This output was -0.0457. This represents a small effect size however it is almost twice as large as the effect size for the difference in pregnancy length between these same groups.
+
+I didn't write my own function since it the function was pretty basic. Plus I've heard being lazy is a positive attribute sometimes!
