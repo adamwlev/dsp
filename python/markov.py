@@ -41,7 +41,7 @@ def print_random_words (d, n):
 			start = prefix
 			break
 	print(" ".join(start),end=" ")
-	for i in range(n):
+	for i in xrange(n):
 		new_word = rand_choice_from_dict(d[start])
 		print(new_word,end="")
 		start = start[1:] + (new_word,)
@@ -59,9 +59,8 @@ def main(*args):
 	except:
 		print('Usage: markov.py filename1 # of words')
 	else:
-		words = []
 		f = open(filename)
-		words.extend(f.read().split())
+		words = f.read().split()
 		f.close()
 		p = make_prefixes(words,order)
 		print_random_words(p,no_of_words-order)
