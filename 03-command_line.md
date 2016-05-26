@@ -90,7 +90,9 @@ I like `la -A` which shows you all files dircetories except `.` and `..`.
 
 What does `xargs` do? Give an example of how to use it.
 
-`xargs` reads the output of something (either a file or the result of a command) and calls a utility function (like `cat` or `mv`) with the read output as arguments to the function. Here's an example that looks for files in your home folder with the substring 'cat' in the name and concatonates the contents of all the files and writes it to a file called 'cat.txt':
+`xargs` reads the output of something (either a file or the result of a command) and calls a utility function (like `cat` or `mv`) with the read output as arguments to the function. 
+
+Here's an example that looks for files in your home folder with the substring 'cat' in the name and concatonates the contents of all the files and writes it to a file called 'cat.txt':
 
 `find ~ -name '*cat*' -print0 | xargs -0 -P 24 cat > cat.txt`
 
