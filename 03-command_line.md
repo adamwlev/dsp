@@ -15,7 +15,7 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 `rm -rf (file)` is remove for a directory that is not empty
 
-`env` lets you take a look at your environment and `env $PATH` lets you take a look at the your PATH (helpful for looking at which python install you will default to)
+`env` lets you take a look at your environment and `env $PATH` lets you take a look at the your PATH variable (helpful for looking at which python install you will default to)
 
 `(operation) | (operation)` lets you pipe the results of an operation on the left into a subsequent operation on the right.
 
