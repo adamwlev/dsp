@@ -67,6 +67,6 @@ I will use vim. I made this decision because it seemed to be the most practical 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
-I am going to use Sublime. My brother recommended it to me. I like the coloring scheme and the design. The most useful keyboard shortcut that I have found so far is <control>-/ to commment/un-comment a line of code. I could customize Sublime by following any number of suggestions people have written about on the internet. So far all I've done is change the icon and make it so when I paste code it automatically indents it properly.
+I am going to use Sublime. My brother recommended it to me. I like the coloring scheme and the design. The most useful keyboard shortcut that I have found so far is `<control>/` to commment/un-comment a line of code. I could customize Sublime by following any number of suggestions people have written about on the internet. So far all I've done is change the icon and make it so when I paste code it automatically indents it properly.
 
  
