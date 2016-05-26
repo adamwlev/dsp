@@ -29,9 +29,9 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 
 `less` lets you page through the contents of a file with less
 
-<kbd>Apple+K</kbd> moves your cursor to start of the line. **CTRL E** moves your cursor to end of the line
+<kbd>Ctrl+A</kbd> moves your cursor to start of the line. <kbd>Ctrl+E</kbd> moves your cursor to end of the line
 
-<kbd>Ctrl+L</kbd> clear the terminal
+<kbd>Apple+K</kbd> clear the terminal
 
 
 
