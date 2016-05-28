@@ -1,35 +1,35 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
-> ```python
-> import nsfg
-> ```
-> 
-> 
-> ```python
-> import thinkstats2
-> ```
-> 
-> 
-> ```python
-> preg = nsfg.ReadFemPreg()
-> ```
-> 
-> 
-> ```python
-> firsts = preg[preg.birthord==1]
-> ```
-> 
-> 
-> ```python
-> others = preg[preg.birthord!=0]
-> ```
-> 
-> 
-> ```python
-> print thinkstats2.CohenEffectSize(firsts.totalwgt_lb,others.totalwgt_lb)
-> ```
-> 
->     -0.0457262384721
+ ```python
+ import nsfg
+ ```
+ 
+ 
+ ```python
+ import thinkstats2
+ ```
+ 
+ 
+ ```python
+ preg = nsfg.ReadFemPreg()
+ ```
+ 
+ 
+ ```python
+ firsts = preg[preg.birthord==1]
+ ```
+ 
+ 
+ ```python
+ others = preg[preg.birthord!=0]
+ ```
+ 
+ 
+ ```python
+ print thinkstats2.CohenEffectSize(firsts.totalwgt_lb,others.totalwgt_lb)
+ ```
+ 
+     -0.0457262384721
  
  
 This represents a small effect size however it is almost twice as large as the effect size for the difference in pregnancy length between these same groups.
