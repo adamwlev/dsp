@@ -13,7 +13,7 @@ pmf = thinkstats2.Pmf(resp['numkdhh'],label='actual')
 ```
 
 
->```python
+```python
 def BiasPmf(pmf, label=''):
     """Returns the Pmf with oversampling proportional to value.
 
@@ -40,12 +40,12 @@ def BiasPmf(pmf, label=''):
 ```
 
 
->```python
+> ```python
 bpmf = BiasPmf(pmf,label='biased')
 ```
 
 
->```python
+> ```python
 print 'The actual mean number of children is:   ',pmf.Mean()
 ```
 
@@ -53,7 +53,7 @@ print 'The actual mean number of children is:   ',pmf.Mean()
 
 
 
->```python
+> ```python
 print 'The biased mean number of children is:   ',bpmf.Mean()
 ```
 
@@ -61,7 +61,7 @@ print 'The biased mean number of children is:   ',bpmf.Mean()
 
 
 
->```python
+> ```python
 % matplotlib inline
 thinkplot.Pmfs([pmf,bpmf])
 thinkplot.Show(xlabel='number of children under 18',ylabel='probability')
