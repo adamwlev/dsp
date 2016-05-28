@@ -30,8 +30,8 @@
 > ```
 > 
 >     -0.0457262384721
-> 
-> 
-> This represents a small effect size however it is almost twice as large as the effect size for the difference in pregnancy length between these same groups.
-> 
-> I didn't write my own function since the function is pretty basic. Plus I've heard being lazy is a positive attribute sometimes!
+ 
+ 
+This represents a small effect size however it is almost twice as large as the effect size for the difference in pregnancy length between these same groups.
+
+I didn't write my own function since the function is pretty basic. Plus I've heard being lazy is a positive attribute sometimes!
