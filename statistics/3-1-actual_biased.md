@@ -1,17 +1,15 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
->```python
+```python
 import thinkstats2
 import chap01soln
 import thinkplot
 ```
 
-
->```python
+```python
 resp = chap01soln.ReadFemResp()
 pmf = thinkstats2.Pmf(resp['numkdhh'],label='actual')
 ```
-
 
 ```python
 def BiasPmf(pmf, label=''):
@@ -39,13 +37,11 @@ def BiasPmf(pmf, label=''):
     return new_pmf
 ```
 
-
-> ```python
+```python
 bpmf = BiasPmf(pmf,label='biased')
 ```
 
-
-> ```python
+```python
 print 'The actual mean number of children is:   ',pmf.Mean()
 ```
 
