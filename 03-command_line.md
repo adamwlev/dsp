@@ -13,25 +13,25 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-`rm -rf (file)` is remove for a directory that is not empty
+> `rm -rf (file)` is remove for a directory that is not empty
 
-`env` lets you take a look at your environment and `env $PATH` lets you take a look at the your PATH variable (helpful for looking at which python install you will default to)
+> `env` lets you take a look at your environment and `env $PATH` lets you take a look at the your PATH variable (helpful for looking at which python install you will default to)
 
-`(operation) | (operation)` lets you pipe the results of an operation on the left into a subsequent operation on the right.
+> `(operation) | (operation)` lets you pipe the results of an operation on the left into a subsequent operation on the right.
 
-`(operation) > (file)` lets you save the results of an operation on the left to a file on the right and `>>` means appending the results to the (already existant) file on the right.
+> `(operation) > (file)` lets you save the results of an operation on the left to a file on the right and `>>` means appending the results to the (already existant) file on the right.
 
-`(operation) < (file)` lets you take the contents of the file on the right and feed it to a program/operation on the left
+> `(operation) < (file)` lets you take the contents of the file on the right and feed it to a program/operation on the left
 
-`find -name (directory) (pattern) -print` lets you search through the names of the files on your computer and prints the results to the terminal
+> `find -name (directory) (pattern) -print` lets you search through the names of the files on your computer and prints the results to the terminal
 
-`cat` prints a whole file to the terminal window
+> `cat` prints a whole file to the terminal window
 
-`less` lets you page through the contents of a file with less
+> `less` lets you page through the contents of a file with less
 
-<kbd>Ctrl+A</kbd> moves your cursor to start of the line. <kbd>Ctrl+E</kbd> moves your cursor to end of the line
+> <kbd>Ctrl+A</kbd> moves your cursor to start of the line. <kbd>Ctrl+E</kbd> moves your cursor to end of the line
 
-<kbd>Apple+K</kbd> clear the terminal
+> <kbd>Apple+K</kbd> clear the terminal
 
 
 
@@ -52,19 +52,19 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-`ls` lists all files and directories in a location (working directory if no other directory is specified) excluded normally hidden files and directories
+> `ls` lists all files and directories in a location (working directory if no other directory is specified) excluded normally hidden files and directories
 
-`ls -a` does the same except it includes files and directories that start with a period which would normall be hidden
+> `ls -a` does the same except it includes files and directories that start with a period which would normall be hidden
 
-`ls -l` the l for long flag does the same except it will give you more info. it will give you such things as the date and time of last modification, ownership info, and file size.
+> `ls -l` the l for long flag does the same except it will give you more info. it will give you such things as the date and time of last modification, ownership info, and file size.
 
-`ls -lh` does the same as `-l` except it converts the file size to a reasonable choice for units. The smallest of the following options that allows for output of three digits or less - Byte, Kilobyte, Megabyte, Gigabyte, Terabyte, Petabyte.
+> `ls -lh` does the same as `-l` except it converts the file size to a reasonable choice for units. The smallest of the following options that allows for output of three digits or less - Byte, Kilobyte, Megabyte, Gigabyte, Terabyte, Petabyte.
 
-`ls -lah` is a combination of the `-l`, `-a`, and `-h` flags.
+> `ls -lah` is a combination of the `-l`, `-a`, and `-h` flags.
 
-`ls -t` the `-t` flag sorts the resulting output based on time last modified, with the most recent first
+> `ls -t` the `-t` flag sorts the resulting output based on time last modified, with the most recent first
 
-`ls -Glp` this is a combination of the `-G` flag which enables colorized output (I think this mostly colors directories according to what kind of directory they are) and the `-l` flag from earlier and the `-p` flag which will put a slash after all directories to communicate that they're directories.
+> `ls -Glp` this is a combination of the `-G` flag which enables colorized output (I think this mostly colors directories according to what kind of directory they are) and the `-l` flag from earlier and the `-p` flag which will put a slash after all directories to communicate that they're directories.
 
 ---
 
@@ -72,15 +72,15 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-I like `la -A` which shows you all files dircetories except `.` and `..`.
+> I like `la -A` which shows you all files dircetories except `.` and `..`.
 
-`ls -o` is like `ls -l` except it does not print the group id, which I do not understand the use for at this moment.
+> `ls -o` is like `ls -l` except it does not print the group id, which I do not understand the use for at this moment.
 
-`ls -S` will order the files/directories by size.
+> `ls -S` will order the files/directories by size.
 
-`ls -AlgoS` will print the long output for everything in the wd except `.` and `..`, except it will omit the group id and owner, and it will order the output by size.
+> `ls -AlgoS` will print the long output for everything in the wd except `.` and `..`, except it will omit the group id and owner, and it will order the output by size.
 
-`ls -Galapagos` is fun. (Repeating tags doesn't do anything :smile:)
+> `ls -Galapagos` is fun. (Repeating tags doesn't do anything :smile:)
 
 
 
@@ -90,11 +90,11 @@ I like `la -A` which shows you all files dircetories except `.` and `..`.
 
 What does `xargs` do? Give an example of how to use it.
 
-`xargs` reads the output of something (either a file or the result of a command) and calls a utility function (like `cat` or `mv`) with the read output as arguments to the function. 
+> `xargs` reads the output of something (either a file or the result of a command) and calls a utility function (like `cat` or `mv`) with the read output as arguments to the function. 
 
-Here's an example that looks for files in your home folder with the substring 'cat' in the name and concatonates the contents of all the files and writes it to a file called 'cat.txt':
+> Here's an example that looks for files in your home folder with the substring 'cat' in the name and concatonates the contents of all the files and writes it to a file called 'cat.txt':
 
-`find ~ -name '*cat*' -print0 | xargs -0 -P 24 cat > cat.txt`
+> `find ~ -name '*cat*' -print0 | xargs -0 -P 24 cat > cat.txt`
 
  
 
