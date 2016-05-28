@@ -42,14 +42,14 @@ bpmf = BiasPmf(pmf,label='biased')
 ```
 
 ```python
-print 'The actual mean number of children is:   ',pmf.Mean()
+print 'The actual mean number of children is:   ', pmf.Mean()
 ```
 
 >    The actual mean number of children is:    1.02420515504
 
 
 ```python
-print 'The biased mean number of children is:   ',bpmf.Mean()
+print 'The biased mean number of children is:   ', bpmf.Mean()
 ```
 
 >    The biased mean number of children is:    2.40367910066
