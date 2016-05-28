@@ -2,28 +2,17 @@
 
  ```python
  import nsfg
- ```
- 
- 
- ```python
  import thinkstats2
  ```
- 
- 
+
  ```python
  preg = nsfg.ReadFemPreg()
  ```
  
- 
  ```python
  firsts = preg[preg.birthord==1]
- ```
- 
- 
- ```python
  others = preg[preg.birthord!=0]
  ```
- 
  
  ```python
  print thinkstats2.CohenEffectSize(firsts.totalwgt_lb,others.totalwgt_lb)
