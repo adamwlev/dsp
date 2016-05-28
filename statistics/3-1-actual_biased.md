@@ -48,16 +48,14 @@ print 'The actual mean number of children is:   ',pmf.Mean()
 >    The actual mean number of children is:    1.02420515504
 
 
-
-> ```python
+```python
 print 'The biased mean number of children is:   ',bpmf.Mean()
 ```
 
 >    The biased mean number of children is:    2.40367910066
 
 
-
-> ```python
+```python
 % matplotlib inline
 thinkplot.Pmfs([pmf,bpmf])
 thinkplot.Show(xlabel='number of children under 18',ylabel='probability')
