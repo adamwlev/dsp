@@ -46,13 +46,13 @@ cross-platform.
 
 Did you install Python 2 or 3? Why?  
 
-I had Python 2 installed, but I installed Python 3 as well in case I ever need it. I am more familiar with Python 2 at this point but maybe there will be a reason to switch to Python 3 in the future.
+> I had Python 2 installed, but I installed Python 3 as well in case I ever need it. I am more familiar with Python 2 at this point but maybe there will be a reason to switch to Python 3 in the future.
 
 ###Q2. Which Python Version Installed   
 
 How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
-You could run the command "python -V" which will tell you the version that would run upon running the command "python". You could also try running the commands "python3" or "python2" to see what versions of each were installed on the computer.
+> You could run the command "python -V" which will tell you the version that would run upon running the command "python". You could also try running the commands "python3" or "python2" to see what versions of each were installed on the computer.
 
  
 
