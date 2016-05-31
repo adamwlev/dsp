@@ -1,3 +1,4 @@
 *.pyc
 python/emma.txt
 .ipynb_checkpoints/
+simplepython.tpl
