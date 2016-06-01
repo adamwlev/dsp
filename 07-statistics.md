@@ -85,7 +85,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 >>
 >> P(B|Ac) = P(B and Ac)/P(Ac) = P(Elvis had a twin brother and Elvis did not have an identical twin) / P(Elvis was not an identical twin) = P(Elvis had a fraternal twin) * P(that twin was a boy) / P(Elvis was not an identical twin) = (1/125) * (1/2)/(299/300) = 6/1495
 >>
->> Plug into Bayes' theorem: P(A|B) = (1/300) / (1/300 + 6/1495) = 299/659 = 0.4537178
+>> Plug into Bayes' theorem: P(A|B) = (1/300) / (1/300 + (6/1495)*(299/300)) = 5/11 = 0.45454545
 
 ---
 
