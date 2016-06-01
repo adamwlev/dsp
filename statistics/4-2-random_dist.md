@@ -15,6 +15,7 @@ thinkplot.Pmf(random_pmf)
 thinkplot.Show()
 ```
 
+![Pmf](https://github.com/adamwlev/dsp/blob/master/img/4-2_files/4-2_1_0.png)
 
 
 ```python
@@ -22,4 +23,4 @@ thinkplot.Cdf(thinkstats2.Cdf(random_nums,label='random'))
 thinkplot.Show()
 ```
 
-
+![Cdf](https://github.com/adamwlev/dsp/blob/master/img/4-2_files/4-2_2_0.png)
