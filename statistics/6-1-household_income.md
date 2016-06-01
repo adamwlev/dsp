@@ -66,4 +66,4 @@ print 'The fraction of observations above the mean is ',1-cdf.Prob(np.mean(sampl
     The fraction of observations above the mean is  0.0213705923664
 
 
-The sample skewness for a larger upper bound is predictibly much larger. Interestingly, the Pearson's Median Skewness actually went down for this larger bound (probabily because the difference between the mean and median is drowned out by the large increase in the standard deviation of the sample).
+The sample skewness for a larger upper bound is predictibly much larger. Interestingly, the Pearson's Median Skewness actually went down for this larger bound (probably because the difference between the mean and median is drowned out by the large increase in the standard deviation of the sample).
