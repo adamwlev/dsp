@@ -75,7 +75,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 >> Let A be the event that Elvis was an identical twin. Let B be the event that Elvis had a twin brother. Let Ac be the
 >> complement of A - the event that Elvis was not an identical twin.
 >> 
->> P(A|B) = P(A and B) / P(B) = (P(B|A) * P(A) / (P(B|A) * P(A) + P(B|Ac)*P(Ac))
+>> P(A|B) = P(A and B) / P(B) = P(B|A) * P(A) / (P(B|A) * P(A) + P(B|Ac)*P(Ac))
 >>
 >> P(B|A) = 1 since given that Elvis was an identical twin, he is sure to have a twin brother
 >>
