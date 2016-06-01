@@ -76,11 +76,15 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 >> complement of A - the event that Elvis was not an identical twin.
 >> 
 >> P(A|B) = P(A and B) / P(B) = (P(B|A) * P(A) / (P(B|A) * P(A) + P(B|Ac)*P(Ac))
+>>
 >> P(B|A) = 1 since given that Elvis was an identical twin, he is sure to have a twin brother
+>>
 >> P(A) = 1/300 by the probability given
+>>
 >> P(Ac) = 299/300 by the probability given
+>>
 >> P(B|Ac) = P(B and Ac)/P(Ac) = P(Elvis had a twin brother and Elvis did not have an identical twin) / P(Elvis was not an identical twin) = P(Elvis had a fraternal twin) * P(that twin was a boy) / P(Elvis was not an identical twin) = (1/125) * (1/2)/(299/300) = 6/1495
-
+>>
 >> Plug into Bayes theorem: P(A|B) = (1/300) / (1/300 + 6/1495) = 299/659 = 0.4537178
 
 ---
