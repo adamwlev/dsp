@@ -62,4 +62,3 @@ thinkplot.Show(xlabel='number of children under 18',ylabel='probability')
 ```
 
 
-![png](3-1_files/3-1_6_0.png)
