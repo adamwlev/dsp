@@ -61,4 +61,4 @@ thinkplot.Pmfs([pmf,bpmf])
 thinkplot.Show(xlabel='number of children under 18',ylabel='probability')
 ```
 
-
+![Pmfs](https://github.com/adamwlev/dsp/blob/master/img/3-1_files/3-1_6_0.png)
