@@ -53,7 +53,7 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 > 
 > List comprehensions also allow you to create a condition to enable only certain items to be included in your list. Let's say we want to know how many of the non-negative integers between 0 and 99 inclusive are not divisable by 2 or 3. We could use `filter` like this:
 > 
-> `len(filter(lambda x: x%2 or x%3, range(100)))`
+> `len(filter(lambda x: x%2 and x%3, range(100)))`
 > 
 > Or we could use a list comprehension like this:
 > 
