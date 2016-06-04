@@ -42,38 +42,38 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> List comprehensions let you define a list by iterating through an iterable. They enable you to do any operation you want with each item of an iterable to create your list. For example, let's say you want to create a list that is the result of feeding every positive integer from 0 to 99 inclusive to a function named `foo`. You can do that with the `map` function:
->> 
->> `map(foo,range(100))`
->> 
->> And equivelently you can do that with a list comprehension like this:
->> 
->> `[foo(i) for i in range(100)]`
->> 
->> 
->> List comprehensions also allow you to create a condition to enable only certain items to be included in your list. Let's say we want to know how many of the non-negative integers between 0 and 99 inclusive are not divisable by 2 or 3. We could use `filter` like this:
->> 
->> `len(filter(lambda x: x%2 or x%3, range(100)))`
->> 
->> Or we could use a list comprehension like this:
->> 
->> `sum([1 for i in range(100) if i%2 and i%3])`
->> 
->> 
->> Set comprehensions are cool. Let's try making a list of all the prime numbers less than 100 using a set comprehension and the sieve of Eratosthenes :
->> 
->> `filter(lambda x: 0 not in set(x%i for i in range(2,int(round(x**.5))+1)), range(2,100))`
->> 
->> Here's an example of a dictionary comprehension. It takes a list and makes a 'histogram' which maps each unique item in the list to the number of times it appears:
->> 
->> First let's create a random list of integers and then print out the histogram of frequencies:
->> 
->> ```python
->> import random
->> foo = [random.choice(range(7)) for _ in range(70000)]
->> {item: foo.count(item) for item in set(foo)}
->>  ## {0: 10057, 1: 9963, 2: 10041, 3: 10047, 4: 9974, 5: 9923, 6: 9995}
->> ```
+> List comprehensions let you define a list by iterating through an iterable. They enable you to do any operation you want with each item of an iterable to create your list. For example, let's say you want to create a list that is the result of feeding every positive integer from 0 to 99 inclusive to a function named `foo`. You can do that with the `map` function:
+> 
+> `map(foo,range(100))`
+> 
+> And equivelently you can do that with a list comprehension like this:
+> 
+> `[foo(i) for i in range(100)]`
+> 
+> 
+> List comprehensions also allow you to create a condition to enable only certain items to be included in your list. Let's say we want to know how many of the non-negative integers between 0 and 99 inclusive are not divisable by 2 or 3. We could use `filter` like this:
+> 
+> `len(filter(lambda x: x%2 and x%3, range(100)))`
+> 
+> Or we could use a list comprehension like this:
+> 
+> `sum([1 for i in range(100) if i%2 and i%3])`
+> 
+> 
+> Set comprehensions are cool. Let's try making a list of all the prime numbers less than 100 using a set comprehension and the sieve of Eratosthenes :
+> 
+> `filter(lambda x: 0 not in set(x%i for i in range(2,int(round(x**.5))+1)), range(2,100))`
+> 
+> Here's an example of a dictionary comprehension. It takes a list and makes a 'histogram' which maps each unique item in the list to the number of times it appears:
+> 
+> First let's create a random list of integers and then print out the histogram of frequencies:
+> 
+> ```python
+> import random
+> foo = [random.choice(range(7)) for _ in range(70000)]
+> {item: foo.count(item) for item in set(foo)}
+>  ## {0: 10057, 1: 9963, 2: 10041, 3: 10047, 4: 9974, 5: 9923, 6: 9995}
+> ```
    
 
 ---
