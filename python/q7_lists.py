@@ -34,7 +34,7 @@ def front_x(words):
     ['xanadu', 'xyz', 'aardvark', 'apple', 'mix']
     """
     assert sum(isinstance(word,str) for word in words)==len(words)
-    return sorted(word for word in words if word[0]=='x') + sorted(word for word in words if word[0]!='x')
+    return sorted(filter(lambda x: x[0]=='x',words)) + sorted(filter(lambda x: x[0]!='x',words))
 
 
 def sort_last(tuples):
