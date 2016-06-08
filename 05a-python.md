@@ -30,7 +30,9 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 > `lambda` is a key word for defining a function. It is used when one wants to define an unamed, single-use function - typically one that is embedded in another expression. Here's an example that filters out all numbers with digits that do not sum to an even number for the first 100 positive integers:
 > 
->  `filter(lambda x: sum(int(i) for i in str(x))%2==0, range(100))`
+>  ```python
+   filter(lambda x: sum(int(i) for i in str(x))%2==0, range(100))
+   ```
 >  
 > And here's an example with a lambda function in the key argument to sorted. I'll sort the first 100 positive integers by the sum of their digits: 
 > 
