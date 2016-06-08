@@ -36,7 +36,9 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 >  
 > And here's an example with a lambda function in the key argument to sorted. I'll sort the first 100 positive integers by the sum of their digits: 
 > 
->  `sorted(range(100), key = lambda x: sum(int(i) for i in str(x)))`
+>  ```python
+   sorted(range(100), key = lambda x: sum(int(i) for i in str(x)))
+   ```
 
 ---
 
@@ -46,25 +48,35 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
 
 > List comprehensions let you define a list by iterating through an iterable. They enable you to do any operation you want with each item of an iterable to create your list. For example, let's say you want to create a list that is the result of feeding every positive integer from 0 to 99 inclusive to a function named `foo`. You can do that with the `map` function:
 > 
-> `map(foo,range(100))`
+> ```python
+   map(foo,range(100))
+   ```
 > 
 > And equivelently you can do that with a list comprehension like this:
 > 
-> `[foo(i) for i in range(100)]`
+> ```python
+   [foo(i) for i in range(100)]
+   ```
 > 
 > 
 > List comprehensions also allow you to create a condition to enable only certain items to be included in your list. Let's say we want to know how many of the non-negative integers between 0 and 99 inclusive are not divisable by 2 or 3. We could use `filter` like this:
 > 
-> `len(filter(lambda x: x%2 and x%3, range(100)))`
+> ```python
+   len(filter(lambda x: x%2 and x%3, range(100)))
+   ```
 > 
 > Or we could use a list comprehension like this:
 > 
-> `sum([1 for i in range(100) if i%2 and i%3])`
+> ```python
+   sum([1 for i in range(100) if i%2 and i%3])
+   ```
 > 
 > 
 > Set comprehensions are cool. Let's try making a list of all the prime numbers less than 100 using a set comprehension and the sieve of Eratosthenes :
 > 
-> `filter(lambda x: 0 not in set(x%i for i in range(2,int(round(x**.5))+1)), range(2,100))`
+> ```python
+   filter(lambda x: 0 not in set(x%i for i in range(2,int(round(x**.5))+1)), range(2,100))
+   ```
 > 
 > Here's an example of a dictionary comprehension. It takes a list and makes a 'histogram' which maps each unique item in the list to the number of times it appears:
 > 
