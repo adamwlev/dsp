@@ -35,8 +35,6 @@ def print_a_plot (fig,filename):
 		os.makedirs('%s%s' % (img_dir,'/advanced_python_plots'))
 	path = '%s%s' % (img_dir,'/advanced_python_plots/')
 	complete_name = '%s%s' % (path,filename)
-	if os.path.isfile(complete_name):
-		os.remove(complete_name) 
 	plt.savefig(complete_name)
 	plt.close()
 
