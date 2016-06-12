@@ -84,4 +84,4 @@ print 'ts max = %g' % (ht.MaxTestStat(),)
     ts max = nan
 
 
-Similiarly, the p-value for the null hypothesis that there is not difference in the birthweight of first babies versus others is 0 just as it was with the pooling procedure. This means that it is extreemly unlikely that the difference in means observed in the groups would ever present itself as a result of random fluctuations (aka sampling bias).
+Similiarly, the p-value for the null hypothesis that there is not difference in the birthweight of first babies versus others is 0 just as it was with the pooling procedure. This means that it is extreemly unlikely that the difference in means observed in the groups would ever present itself as a result of random fluctuations (aka sampling error).
