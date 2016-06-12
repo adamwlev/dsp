@@ -51,9 +51,9 @@ The emails.csv file you create should be added and committed to your forked repo
 
 Your file, emails.csv, will look like this:
 ```
-bellamys@<i></i>mail.med.upenn.edu
-warren@<i></i>upenn.edu
-bryanma@<i></i>upenn.edu
+bellamys@mail.med.upenn.edu
+warren@upenn.edu
+bryanma@upenn.edu
 ```
 
 ---
