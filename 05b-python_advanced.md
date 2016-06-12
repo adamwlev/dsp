@@ -83,7 +83,6 @@ Print the first 3 key and value pairs of the dictionary:
 
 >('Scarlett', 'Bellamy') ['Sc.D.', 'Associate Professor', 'bellamys@mail.med.upenn.edu']
 
-
 >('Warren', 'Bilker') ['Ph.D.', 'Professor', 'warren@upenn.edu']
 >('Matthew', 'Bryan') ['PhD', 'Assistant Professor', 'bryanma@upenn.edu']
 >('Jinbo', 'Chen') ['Ph.D.', 'Associate Professor', 'jinboche@upenn.edu']
