@@ -51,28 +51,28 @@ print '3.1:\n','A + C is undefined.','\n'
 #Answer: A + C is undefined.
 print '3.2:\n',A-np.transpose(C),'\n'
 #Answer: [[-4 -7 -3]
-# 		  [ 3  6  4]]
+# 		    [ 3  6  4]]
 print '3.3:\n',np.transpose(C)+3*D,'\n'
 #Answer: [[14  3  3]
 #         [ 2  7  9]]
 print '3.4:\n',B*A,'\n'
 #Answer: [[-1 -5 -1]
-#		  [ 2  7  4]] 
+#		      [ 2  7  4]] 
 print '3.5:\n','B*t(A) is undefined.','\n'
 #Answer: B*t(A) is undefined. 
 print '3.6:\n','B*C is undefined.','\n'
 #Answer: B*C is undefined.
 print '3.7:\n',C*B,'\n'
 #Answer: [[ 5 -6]
-# 		  [ 9 -8]
-#		  [ 6 -6]]
+# 		    [ 9 -8]
+#		      [ 6 -6]]
 print '3.8:\n',B**4,'\n'
 #Answer: [[ 1 -4]
-#		  [ 0  1]] 
+#		      [ 0  1]] 
 print '3.9:\n',A*np.transpose(A),'\n'
 #Answer: [[14 28]
-#		  [28 69]]
+#		      [28 69]]
 print '3.10\n',np.transpose(D)*D
 #Answer: [[10 -4  0]
-# 		  [-4  8  8]
-# 		  [ 0  8 10]]
+# 		    [-4  8  8]
+# 		    [ 0  8 10]]
