@@ -92,7 +92,7 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentist and Bayesian statistics are sort of similiar and sort of different. When estimating a statistic, Frequentists will assume that the true value is fixed and they will evaluate the liklihood that the sample statistic calculated with a draw from the population of size equal to the sample size is in some range. Bayesians will instead say the parameter is not fixed and is decribed by a probability distribution. Upon observing data, Bayesians will instead be able to estimate the liklihood that the true parameter falls inside some interval. Practically speaking, Bayesian analysis is especially useful when there is prior information on a statistic that one wishes to incorporate into the analysis.
 
 ---
 
